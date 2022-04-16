@@ -28,6 +28,8 @@ public class Ex09 {
 		else {
 			System.out.println( num1 + " 는(은) " +num2+ " 의 약수가 아닙니다.");
 		}
+		
+		
 		sc.close();
 	}
 

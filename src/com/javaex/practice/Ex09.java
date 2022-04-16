@@ -14,7 +14,6 @@ public class Ex09 {
 		System.out.print("두번째 숫자: ");
 		int num2 = sc.nextInt();
 		
-		
 		if(num1>num2 && num1%num2==0 ) {
 			System.out.println( num2 + " 는(은) "+num1+ " 의 약수입니다.");
 		}
@@ -28,6 +27,7 @@ public class Ex09 {
 		else {
 			System.out.println( num1 + " 는(은) " +num2+ " 의 약수가 아닙니다.");
 		}
+		
 		
 		
 		sc.close();
